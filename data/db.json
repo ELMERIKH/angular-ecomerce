@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "password": "12345",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTUxNjIzOTAyMiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4ODg4L2F1dGgiLCJuYmYiOjE1MTYyNzkwMjIsImZpcnN0bmFtZSI6InJhbmEiLCJsYXN0bmFtZSI6Im1vdWpvdWQiLCJlbWFpbCI6InJhbmFAZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiJdfQ.gVTiFsLc9RuLHCrAGtQXK6bZQE78nUQFM5kgqeWahtw"
+    },
+    {
+      "id": "user2",
+      "password": "12345",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTUxNjIzOTAyMiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4ODg4L2F1dGgiLCJuYmYiOjE1MTYyNzkwMjIsImZpcnN0bmFtZSI6InJhbmEiLCJsYXN0bmFtZSI6Im1vdWpvdWQiLCJlbWFpbCI6InJhbmFAZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiJdfQ.g-0ltHnFel_fGbNIKUq5FUnkGKXkaCe-X1XI50VcOFk"
+    },
+    {
+      "id": "admin",
+      "password": "12345",
+      "roles": [
+        "USER",
+        "ADMIN"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4ODg4L2F1dGgiLCJuYmYiOjE1MTYyNzkwMjIsImZpcnN0bmFtZSI6InJhbmEiLCJsYXN0bmFtZSI6Im1vdWpvdWQiLCJlbWFpbCI6InJhbmFAZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiIsIkFETUlOIl19.Ytt4DWvrcV_NFtMteEhUKY1NSyhzmpfAG8n65-kQ8hc"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "pc",
+      "price": 5600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "TLAGA",
+      "price": 7777,
+      "checked": false
+    },
+    {
+      "id": 3,
+      "name": "PHONE",
+      "price": 600,
+      "checked": false
+    },
+    {
+      "name": "Phone",
+      "price": "12000",
+      "checked": true,
+      "id": 4
+    },
+    {
+      "name": "iphone",
+      "price": 77777,
+      "checked": false,
+      "id": 5
+    }
+  ]
+}
